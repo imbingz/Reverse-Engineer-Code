@@ -52,7 +52,7 @@
   In order to use this APP, you need terminal (mac: pre-installed) or gitbash (pc: must be installed). You also need to download and install [node.js](https://nodejs.org/en/) and [npm](www.npmjs.com) or [yarn](https://yarnpkg.com/) package manager. Open the cloned REPO in your favorite code editor, and then in terminal, enter the command “ npm i “ or “yarn add”  to install the dependencies. Make sure to create a .env file on the project root, and input your own Mysql Workbench config information (see .env_example for samples). Now you are ready to start using  the app by entering “npm start” on your terminal or gitbash. 
   
   ## Credits and Reference
-  The following links have helped me with this project. <br> [express-sessioon](https://www.npmjs.com/package/express-session), [Passport](http://www.passportjs.org/), [bcrypt](https://www.npmjs.com/package/bcryptjs), [How do sessions work in Express.js with Node.js?](https://stackoverflow.com/questions/5522020/how-do-sessions-work-in-express-js-with-node-js), [sequelize](https://sequelize.org/master/index.html)
+  The following links have helped me with this project. <br> [express-sessioon](https://www.npmjs.com/package/express-session) <br>  [Passport](http://www.passportjs.org/) <br>  [bcrypt](https://www.npmjs.com/package/bcryptjs) <br>  [How do sessions work in Express.js with Node.js?](https://stackoverflow.com/questions/5522020/how-do-sessions-work-in-express-js-with-node-js) <br> [sequelize](https://sequelize.org/master/index.html)  <br> 
   
   ## Tests
   n/a
