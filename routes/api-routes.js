@@ -31,5 +31,20 @@ module.exports = app => {
         req.logout();
         res.redirect("/");
     });
-  
+
+
+    //Route for getting user data to be used to render member page after sign up and login 
+    //If user is no logged in, send back an empty object
+    //Otherwise, send back the user email and id. 
+    app.get("/api/user_data", (req, res) => {
+        console.log(req.user);
+        if (!req.user) {
+            res.json({});
+        } else {
+            res.json({
+                email: req.user.email,
+                id: req.user.id
+            });
+        }
+    });
 };
