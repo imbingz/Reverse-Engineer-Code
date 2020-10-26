@@ -18,6 +18,9 @@ passport.use(new LocalStrategy(
                 email
             }
         }).then((dbUser) => {
+            //This cb function will find the correct user from the database and pass it as a closure variable into the callback done(err,user);
+            //So the code in the passport.session() can replace the 'user' value in the req object and pass on to the next middleware in the pile
+            
             //If there is no user in the database with given email
             if (!dbUser) {
                 return done(null, false, {message: "Incorrect email."});
@@ -35,6 +38,7 @@ passport.use(new LocalStrategy(
 
 //Sequelize serialize and deserialize user in order to help keep authentication state across HTTP requests 
 //Boiler plate needed to make it all work 
+
 passport.serializeUser((user, cb) => {
     cb(null, user);
 });
