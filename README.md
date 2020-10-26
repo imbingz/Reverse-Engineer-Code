@@ -24,9 +24,10 @@
   #
 
   ##  Project Links
-  
+  Here is the link to the tutorial. 
 
   ## Screenshots-Demo
+  Here is the demo to show the given application I will write the tutorial for. 
   <kbd>![screenshot-demo1](./public/image/demo.gif)</kbd>
   
   ## Project Objective
