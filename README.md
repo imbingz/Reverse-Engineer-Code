@@ -24,7 +24,7 @@
   #
 
   ##  Project Links
-  Here is the link to the tutorial. 
+  [Click HERE](https://docs.google.com/document/d/19nfM-1FZB6A6bX8sJVv8M0a_vuzp5LNvvlw58B_-c6Q/edit)to see the tutorial. 
 
   ## Screenshots-Demo
   Here is the demo to show the given application I will write the tutorial for. 
